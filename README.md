@@ -24,3 +24,16 @@ $ npm install
 ```sh
 npm run dev
 ```
+
+## Nota
+- Se puede ejecutar este comando, para realizar la migración de las tablas a la base de datos por medio de Laravel
+```sh
+php artisan migrate:refresh
+```
+
+- Se puede ejecutar este comando, para insertar datos a las tablas, tal cual como esta en la configuración de los seed
+```sh
+php artisan migrate:refresh --seed
+```
+
+
